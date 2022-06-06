@@ -17,7 +17,7 @@ public class SampleAmazonlaunch {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         WebElement fullname = driver.findElement(By.xpath("//input[@id='userName']"));
-        fullname.sendKeys("Arun Prasath");
+        fullname.sendKeys("Arun Prasath Tamilselvan");
 
         //driver.findElement(By.xpath("//a/span[contains(text(),'Apple iPhone 13 Pro Max (256GB) - Sierra Blue')]"));
         String pageTitle = driver.getTitle();
